@@ -2,7 +2,7 @@
 }
 #sun{
     position: absolute;
-    left: 0vw;
+    left: -25px;
     top: 50vh;
     animation: Xmove 5s infinite alternate linear;
 }
