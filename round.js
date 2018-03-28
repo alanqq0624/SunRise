@@ -16,3 +16,6 @@ $("#start").click(function(){
 
 var xSun, ySun;
 
+$("#sun").animate(
+    
+)
