@@ -13,6 +13,3 @@ $("#start").click(function(){
         $("#start").text("7122");
     }
 });
-
-var xSun, ySun;
-
