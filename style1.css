@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    background-size: cover;
+    background-color: #54b0e8;
 }
 #start{
 }
@@ -7,16 +9,17 @@ body{
     position: absolute;
     left: -25px;
     top: 50vh;
-    animation: Xmove 5s infinite alternate linear;
 }
 
 #sun2{
-    width: 50px;
-    height: 50px;
-    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border: 2px solid none;
     border-radius: 50%;
     background-color: yellow;
-    animation: Ymove 5s infinite alternate;
+    background-image:url('sun4.png');
+    background-size: cover;
+
 }
 
 #O{
@@ -27,22 +30,3 @@ body{
     height: 10px;
     background-color: red;
 }
-
-/* @keyframes Xmove{
-    100% {
-        transform: translateX(100vw);
-    }
-}
-@keyframes Ymove{
-    0%{
-        transform: translateY(0vh);
-        animation-timing-function: cubic-bezier(0,.5,.5,1);
-    }
-    50%{
-        transform: translateY(-50vh);
-        animation-timing-function: cubic-bezier(.5,0,1,.5)
-    }
-    100%{
-        transform: translateY(0vh);
-    }
-} */

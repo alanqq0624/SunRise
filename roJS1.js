@@ -11,10 +11,8 @@ var b = ((endY+beginY)/2)-peakY;
 var rotateR = ((a*a)+(b*b))/(2*b);
 var rotateDeg = (Math.asin(a/rotateR)*360)/Math.PI;
 
-$("#sun2").css("background-color", "blue")
 $("#sun").css("transform-origin", "50vw " + (rotateR-b) + "vw");
-$("#sun").css("transform", " translateX(-25px)");
-$("#sun").css("transform", " translateY(-25px)");
+$("#O").css("left", a + "vw").css("top", (peakY+rotateR) + "vw");
 
 
 $("#start").click(function(){
